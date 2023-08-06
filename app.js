@@ -8,3 +8,4 @@ let a = {
 }
 
 module.exports = a;
+// export default a;
