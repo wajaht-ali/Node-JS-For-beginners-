@@ -4,3 +4,13 @@
 
 // a.average(3,4);
 
+const http = require('http');
+
+const server = http.createServer((request, response) => {
+
+});
+
+server.listen(4000, "localhost", ()=>{
+    console.log("server is working!!")
+});
+
